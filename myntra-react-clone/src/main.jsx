@@ -36,13 +36,13 @@ const router = createBrowserRouter([
       },
     ],
   },
+  // {
+  //   path: "/bag",
+  //   element: <Bag />,
+  //   /*action: createPostAction,*/
+  // },
   {
     path: "/bag",
-    element: <Bag />,
-    /*action: createPostAction,*/
-  },
-  {
-    path: "/:id/:itemId/bag",
     element: <BagRoute />,
     /*action: createPostAction,*/
   },

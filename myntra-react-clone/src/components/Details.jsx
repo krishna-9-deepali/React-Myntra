@@ -57,7 +57,7 @@ const Details = () => {
           <span className="discount">(${item.discount_percentage}% OFF)</span>
         </div>
         {bag.includes(item.id) ? (
-          <Link to="/:id/:itemId/bag">
+          <Link to="/bag">
             <button type="button" className=" btn-add-bag btn ">
               <div
                 style={{

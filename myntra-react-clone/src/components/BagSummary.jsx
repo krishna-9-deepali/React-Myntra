@@ -3,6 +3,7 @@ const BagSummary = ({ bagItems }) => {
   const items = useSelector((store) => store.items);
   const bag = useSelector((store) => store.bag);
   // const bagItems = items.filter((item) => bag.includes(item.id));
+  console.log(bagItems);
   const CONVENIENCE_FEES = 99;
   let totalItem = 0,
     totalMRP = 0,

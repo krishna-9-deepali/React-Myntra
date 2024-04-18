@@ -41,10 +41,7 @@ const Header = () => {
           <span className="action_name">Wishlist</span>
         </Link>
 
-        <Link
-          to={bag.length > 0 ? "/:id/:itemId/bag" : "/bag"}
-          className="action_container"
-        >
+        <Link to="/bag" className="action_container">
           <BsHandbag />
           <span class="action_name">Bag</span>
           {/* {bag.length == 0 ? (    
